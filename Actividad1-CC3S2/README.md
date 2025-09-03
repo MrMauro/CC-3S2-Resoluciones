@@ -32,17 +32,17 @@ En muchas organizaciones tradicionales, los equipos trabajan en silos: desarroll
 
 Los anti-patrones son prácticas que parecen útiles pero resultan dañinas. Ejemplos en DevOps incluyen:
 
-    - **“Entregar y olvidar”**: el equipo de desarrollo lanza el software y se desentiende.
+    - “Entregar y olvidar”: el equipo de desarrollo lanza el software y se desentiende.
 
-    - **“Automatizar por automatizar”**: invertir en herramientas sin un objetivo claro.
+    - “Automatizar por automatizar”: invertir en herramientas sin un objetivo claro.
 
-    - **“DevOps como un rol único”**: contratar a un “ingeniero DevOps” en lugar de adoptar la cultura en todo el equipo.
+    - “DevOps como un rol único”: contratar a un “ingeniero DevOps” en lugar de adoptar la cultura en todo el equipo.
 
 Trade-off verificable:
 
-    - **Silos**: dan claridad de funciones, pero reducen la colaboración y retrasan entregas.
+    - Silos: dan claridad de funciones, pero reducen la colaboración y retrasan entregas.
 
-    - **Romper silos con DevOps**: mejora la agilidad, pero exige coordinación constante y responsabilidades compartidas.
+    - Romper silos con DevOps: mejora la agilidad, pero exige coordinación constante y responsabilidades compartidas.
 
 ![Tipos de Anti-patrones](./imagenes/anti-type.jpg)
 
