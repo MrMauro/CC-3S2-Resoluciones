@@ -30,6 +30,7 @@ mkdir -p reports
 {
   echo "TLS via curl -Iv"
   curl -Iv https://example.com 2>&1 | sed -n '1,20p'
+  echo "Versión observada TLSv1.3"
 } > reports/tls.txt
 
 # TODO: Puertos locales - lista y comenta riesgos
