@@ -9,7 +9,10 @@ mkdir -p reports
   echo "curl -I example.com"
   curl -Is https://example.com | sed '/^\r$/d'
   echo
-  echo "Explicación (editar): Código HTTP X significa ..."
+  echo "Explicación:"
+  echo "El código HTTP 200 significa que la petición fue exitosa."
+  echo "Está usando HTTP/2, que hace la conexión más rápida y eficiente."
+  echo "Las cabeceras (cache-control,...) sirven para que el navegador guarde la página y no la pida a cada rato"
 } > reports/http.txt
 
 # TODO: DNS — muestra A/AAAA/MX y comenta TTL

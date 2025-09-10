@@ -4,7 +4,10 @@ content-type: text/html
 etag: "84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134"
 last-modified: Mon, 13 Jan 2025 20:11:20 GMT
 cache-control: max-age=86000
-date: Wed, 10 Sep 2025 05:47:04 GMT
+date: Wed, 10 Sep 2025 06:05:32 GMT
 alt-svc: h3=":443"; ma=93600
 
-Explicación (editar): Código HTTP X significa ...
+Explicación:
+El código HTTP 200 significa que la petición fue exitosa.
+Está usando HTTP/2, que hace la conexión más rápida y eficiente.
+Las cabeceras (cache-control,...) sirven para que el navegador guarde la página y no la pida a cada rato
