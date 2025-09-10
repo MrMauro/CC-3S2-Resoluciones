@@ -21,7 +21,9 @@ mkdir -p reports
   echo "AAAA"; dig AAAA example.com +noall +answer
   echo "MX";   dig MX example.com +noall +answer
   echo
-  echo "Nota (editar): TTL alto vs bajo impacta en ..."
+  echo "Nota:"
+  echo "El número (TTL) dice cuántos segundos se guarda la respuesta antes de volver a preguntar."
+  echo "A = IPv4, AAAA = IPv6, MX = correo."
 } > reports/dns.txt
 
 # TODO: TLS - registra versión TLS
