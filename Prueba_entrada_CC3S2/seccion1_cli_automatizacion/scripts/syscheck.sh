@@ -38,7 +38,11 @@ mkdir -p reports
   echo "ss -tuln"
   ss -tuln || true
   echo
-  echo "Riesgos (editar): Puertos abiertos innecesarios pueden ..."
+  echo "Riesgos"
+  echo "Los puertos que aparecen aquí están abiertos y en escucha en la máquina."
+  echo "Si dejas puertos innecesarios abiertos, cualquiera podría intentar conectarse o explotar vulnerabilidades."
+  echo "Por eso se recomienda cerrar lo que no uses o protegerlos con firewall."
+
 } > reports/sockets.txt
 
 echo "Reportes generados en ./reports"

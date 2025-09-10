@@ -15,4 +15,7 @@ tcp   LISTEN 0      4096                      127.0.0.53%lo:53         0.0.0.0:*
 tcp   LISTEN 0      4096                              [::1]:631           [::]:*          
 tcp   LISTEN 0      511                                [::]:80            [::]:*          
 
-Riesgos (editar): Puertos abiertos innecesarios pueden ...
+Riesgos
+Los puertos que aparecen aquí están abiertos y en escucha en la máquina.
+Si dejas puertos innecesarios abiertos, cualquiera podría intentar conectarse o explotar vulnerabilidades.
+Por eso se recomienda cerrar lo que no uses o protegerlos con firewall.
