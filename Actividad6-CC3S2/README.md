@@ -23,5 +23,7 @@ git status >> logs/init-status.txt
 
 Responsables de crear el archivo con la salida de `git init` y agregar la salida de `git status` al mismo archivo, sin borrar lo anterior.
 
-Se procede con el llenado de `add-commit.txt`
+Se procede con el llenado de `add-commit.txt`, teniendo en cuenta el primer commit que se hizo luego de completar las archivos anteriores.
+
+
 
